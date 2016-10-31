@@ -1,0 +1,49 @@
+[
+  {
+    "userid": "0001",
+    "sitename": "example.org",
+    "phpver": 5.4,
+    "db": [
+      {
+        "dbname": "d0001",
+        "user": [
+          "d0001"
+        ]
+      },
+      {
+        "dbname": "d0001_hyip",
+        "user": [
+          "d0001",
+          "d0001_hyiper"
+        ]
+      }
+    ]
+  },
+  {
+    "userid": "0002",
+    "sitename": "example.net",
+    "phpver": 5.5,
+    "db": [
+      {
+        "dbname": "d0002",
+        "user": [
+          "d0002",
+          "d0002_hyip"
+        ]
+      }
+    ]
+  },
+  {
+    "userid": "0003",
+    "sitename": "example.com",
+    "phpver": 5.6,
+    "db": [
+      {
+        "dbname": "d0003",
+        "user": [
+          "d0003"
+        ]
+      }
+    ]
+  }
+]
