@@ -33,10 +33,15 @@ while (<FH>) { $jsonr .= $_ } ;
 close FH; 
 event("ERR:Invalid JSON") unless (valid_json ($jsonr));
 
-
 my $jsonp =  parse_json ( $jsonr );  
 
-print Dumper($jsonp);
+my $f = 1;
+my $i = 0;
+while (for ) { 
+	print  
+}
+
+#print Dumper($jsonp);
 #print $jsonr; 
 #print $jsonp; 
 event("End");
