@@ -6,13 +6,13 @@
     "db": [
       {
         "dbname": "d0001",
-        "user": [
+        "dbuser": [
           "d0001"
         ]
       },
       {
         "dbname": "d0001_hyip",
-        "user": [
+        "dbuser": [
           "d0001",
           "d0001_hyiper"
         ]
@@ -26,7 +26,7 @@
     "db": [
       {
         "dbname": "d0002",
-        "user": [
+        "dbuser": [
           "d0002",
           "d0002_hyip"
         ]
@@ -40,7 +40,7 @@
     "db": [
       {
         "dbname": "d0003",
-        "user": [
+        "dbuser": [
           "d0003"
         ]
       }
