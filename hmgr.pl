@@ -9,16 +9,32 @@ use POSIX qw(strftime);
 use JSON::Parse ':all';
 #use JSON qw( decode_json );
 #use JSON::Parse 'valid_json';
-
 use Data::Dumper;
+
+use constant CREATE	=> 0;
+use constant DROP		=> 1;
+use constant ADD		=> 2;
+use constant DEL		=> 3;
+use constant GRANT	=> 4;
+use constant REVOKE	=> 5;
+use constant PSWLEN	=> 14;
+use constant LOGFILE	=> "./mgmt.log";
+
+##open STDOUT, '>', LOGFILE or die "Can't redirect STDOUT: $!";
+##open STDERR, ">&STDOUT" or die "Can't dup for STDERR: $!";
+##STDOUT->autoflush(1);
+
+open STDERR, '>>', LOGFILE or die "Can't dup for STDERR: $!";
+STDERR->autoflush(1);
+
+#my $pswlen = 12;
 
 sub event {
 	my $msg = shift;
-	if (open (LOG, ">>./mgmt.log") ) {
+	if (open (LOG, ">>",LOGFILE) ) {
 	my $time = strftime "%H:%M:%S %d-%m-%Y", localtime;
 		print LOG "$time: $msg\n";
 		close LOG;
-		#print "$msg\n"; #
 		exit 1 if ($msg =~ /ERR/ );
 		return 0;
 	}
@@ -28,32 +44,31 @@ sub event {
 	}
 }
 
+sub pwgen {
+	my @sm = ("a".."z","A".."Z","0".."9");
+	my $psw = join ("", @sm[map {rand @sm} (1..PSWLEN)]);
+	return $psw;
+}
+
 sub dbctl {
 	my $cmd = shift;
 	my $cdb = shift;
-	my @cdbusers = shift;
+	my $cdbuser = shift;
 	my $dbh = DBI->connect("DBI:mysql:", "root", "rootpassword");
+	#CREATE DROP ADD DEL GRANT REVOKE
 	switch ($cmd) {
-		case "create"	{ $dbh->do("create database $cdb"); }
-		case "drop"		{}
-		case "add"		{}
-		case "del"		{}
-		case "grant"	{}
-		case "forbid"	{}
+		case 0	{ $dbh->do("create database $cdb") or event("WNG: Can't create database $cdb") }
+		case 1	{ $dbh->do("drop database $cdb") or event("WNG: Can't drop database $cdb") }
+		case 2	{	my $tpw = pwgen; $dbh->do("create user \'$cdbuser\'\@\'localhost\' identified by \'$tpw\'") or event("WNG: Can't create user $cdbuser"); return $tpw }
+		case 3	{ $dbh->do("drop user \'$cdbuser\'\@\'localhost\' ") or event("WNG: Can't drop user $cdbuser")}
+		case 4	{	$dbh->do("grant all privileges on $cdb\.\* to \'$cdbuser\'\@\'localhost\'") or event("WNG: Can't grant on $cdb for $cdbuser")}
+		case 5	{	$dbh->do("revoke all on $cdb\.\* from \'$cdbuser\'\@\'localhost\'") or event("WNG: Can't revoke on $cdb for $cdbuser")}
 	}
-	case
 
 	$dbh->disconnect(); #
 }
 
-sub pwgen { ####
-	my $len = shift;
 
-	for ($i = 1;$i<=$use{many};$i++)
-	{
-		$use{psw} = join ("", @sm[map {rand @sm} (1..$use{count})]);
-	}
-}
 
 event("Start");
 #my $dbh = DBI->connect("DBI:mysql:", "root", "rootpassword");
@@ -69,7 +84,15 @@ event("ERR:Invalid JSON") unless (valid_json ($jsonr));
 # Зarse in hash
 my $jsonp =  parse_json ( $jsonr );
 
+dbctl(DEL,0,"tester");
+dbctl(DROP,"test1","123");
+dbctl(CREATE,"test1","123");
+print dbctl(ADD, 0,"tester");
+dbctl(GRANT,"test1","tester");
+dbctl(REVOKE,"test1","tester");
 
+
+#for (my $c = 0 ; $c < 10; $c++) {print pwgen()."\n"} ;
 my @uids;
 for ( my $t = 0; $jsonp->[$t]->{userid}; $t++) {
 	print "num:$t\tid:$jsonp->[$t]->{userid}\tsitename: $jsonp->[$t]->{sitename}\tphpver: $jsonp->[$t]->{phpver}\tactive: $jsonp->[$t]->{active}\t";
