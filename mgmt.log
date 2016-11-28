@@ -247,3 +247,608 @@ DBD::mysql::db do failed: Operation CREATE USER failed for 'tester'@'localhost' 
 04:19:49 27-11-2016: End
 04:19:50 27-11-2016: Start
 04:19:50 27-11-2016: End
+04:27:23 27-11-2016: Start
+04:27:23 27-11-2016: End
+05:35:13 28-11-2016: Start
+05:35:13 28-11-2016: End
+05:48:14 28-11-2016: Start
+Undefined subroutine &main::md5_base64 called at ./hmgr.pl line 85.
+05:50:18 28-11-2016: Start
+Undefined subroutine &main::md5_base64 called at ./hmgr.pl line 85.
+05:50:56 28-11-2016: Start
+05:50:56 28-11-2016: ERR: Can't open json
+
+05:51:53 28-11-2016: Start
+05:51:53 28-11-2016: ERR: Can't open json
+
+05:52:04 28-11-2016: Start
+05:52:04 28-11-2016: ERR: Can't open json
+
+05:52:21 28-11-2016: Start
+readline() on unopened filehandle FH at ./hmgr.pl line 81.
+05:52:21 28-11-2016: ERR:Invalid JSON
+05:52:39 28-11-2016: Start
+05:52:39 28-11-2016: End
+06:06:23 28-11-2016: Start
+print() on closed filehandle JSON at ./hmgr.pl line 89.
+Use of uninitialized value $dgstold in string eq at ./hmgr.pl line 91.
+06:06:23 28-11-2016: End
+06:06:53 28-11-2016: Start
+Use of uninitialized value $dgstold in string eq at ./hmgr.pl line 91.
+06:06:53 28-11-2016: End
+06:10:47 28-11-2016: Start
+Use of uninitialized value $dgstold in string eq at ./hmgr.pl line 91.
+06:10:47 28-11-2016: End
+06:12:10 28-11-2016: Start
+06:12:10 28-11-2016: End
+06:12:12 28-11-2016: Start
+06:12:12 28-11-2016: End
+06:13:36 28-11-2016: Start
+06:13:36 28-11-2016: End
+06:14:54 28-11-2016: Start
+06:14:54 28-11-2016: End
+06:14:56 28-11-2016: Start
+06:14:56 28-11-2016: End
+06:14:59 28-11-2016: Start
+06:14:59 28-11-2016: End
+06:15:20 28-11-2016: Start
+Use of uninitialized value $dgstold in print at ./hmgr.pl line 90.
+06:15:20 28-11-2016: End
+06:15:21 28-11-2016: Start
+Use of uninitialized value $dgstold in print at ./hmgr.pl line 90.
+06:15:21 28-11-2016: End
+06:15:37 28-11-2016: Start
+06:15:37 28-11-2016: INF: Json was not changed
+
+06:15:39 28-11-2016: Start
+06:15:39 28-11-2016: INF: Json was not changed
+
+06:15:40 28-11-2016: Start
+06:15:40 28-11-2016: INF: Json was not changed
+
+06:16:09 28-11-2016: Start
+06:16:09 28-11-2016: ERR: Json was not changed
+
+06:16:11 28-11-2016: Start
+06:16:11 28-11-2016: ERR: Json was not changed
+
+06:16:40 28-11-2016: Start
+06:16:40 28-11-2016: INF: Json was not changed
+
+06:16:40 28-11-2016: End
+06:16:41 28-11-2016: Start
+06:16:41 28-11-2016: INF: Json was not changed
+
+06:16:41 28-11-2016: End
+06:16:43 28-11-2016: Start
+06:16:43 28-11-2016: INF: Json was not changed
+
+06:16:43 28-11-2016: End
+06:16:45 28-11-2016: Start
+06:16:45 28-11-2016: INF: Json was not changed
+
+06:16:45 28-11-2016: End
+06:17:48 28-11-2016: Start
+06:17:48 28-11-2016: INF: Json was not changed
+
+06:17:49 28-11-2016: Start
+06:17:49 28-11-2016: INF: Json was not changed
+
+06:17:50 28-11-2016: Start
+06:17:50 28-11-2016: INF: Json was not changed
+
+06:18:04 28-11-2016: Start
+06:18:04 28-11-2016: INF: Json was not changed
+
+06:18:04 28-11-2016: Start
+06:18:04 28-11-2016: INF: Json was not changed
+
+06:18:25 28-11-2016: Start
+06:18:25 28-11-2016: End
+06:18:27 28-11-2016: Start
+06:18:27 28-11-2016: End
+06:18:28 28-11-2016: Start
+06:18:28 28-11-2016: End
+06:18:29 28-11-2016: Start
+06:18:29 28-11-2016: End
+06:18:29 28-11-2016: Start
+06:18:29 28-11-2016: End
+06:18:30 28-11-2016: Start
+06:18:30 28-11-2016: End
+06:18:48 28-11-2016: Start
+06:18:48 28-11-2016: End
+06:18:49 28-11-2016: Start
+06:18:49 28-11-2016: End
+06:18:50 28-11-2016: Start
+06:18:50 28-11-2016: End
+06:18:51 28-11-2016: Start
+06:18:51 28-11-2016: End
+06:18:51 28-11-2016: Start
+06:18:51 28-11-2016: End
+06:18:52 28-11-2016: Start
+06:18:52 28-11-2016: End
+06:19:06 28-11-2016: Start
+06:19:06 28-11-2016: End
+06:19:07 28-11-2016: Start
+06:19:07 28-11-2016: End
+06:19:08 28-11-2016: Start
+06:19:08 28-11-2016: End
+06:19:08 28-11-2016: Start
+06:19:08 28-11-2016: End
+06:19:28 28-11-2016: Start
+06:19:28 28-11-2016: End
+06:19:29 28-11-2016: Start
+06:19:29 28-11-2016: End
+06:19:30 28-11-2016: Start
+06:19:30 28-11-2016: End
+06:19:31 28-11-2016: Start
+06:19:31 28-11-2016: End
+06:19:32 28-11-2016: Start
+06:19:32 28-11-2016: End
+06:19:41 28-11-2016: Start
+06:19:41 28-11-2016: End
+06:19:42 28-11-2016: Start
+06:19:42 28-11-2016: End
+06:19:43 28-11-2016: Start
+06:19:43 28-11-2016: End
+06:19:43 28-11-2016: Start
+06:19:43 28-11-2016: End
+06:19:44 28-11-2016: Start
+06:19:44 28-11-2016: End
+06:20:03 28-11-2016: Start
+06:20:03 28-11-2016: End
+06:20:04 28-11-2016: Start
+06:20:04 28-11-2016: End
+06:20:05 28-11-2016: Start
+06:20:05 28-11-2016: End
+06:20:41 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 90.
+06:20:41 28-11-2016: End
+06:20:42 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 90.
+06:20:42 28-11-2016: End
+06:20:44 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 90.
+06:20:44 28-11-2016: End
+06:22:23 28-11-2016: Start
+06:22:23 28-11-2016: INF: Json was not changed
+
+06:22:23 28-11-2016: Start
+06:22:23 28-11-2016: INF: Json was not changed
+
+06:22:24 28-11-2016: Start
+06:22:24 28-11-2016: INF: Json was not changed
+
+06:22:25 28-11-2016: Start
+06:22:25 28-11-2016: INF: Json was not changed
+
+06:23:24 28-11-2016: Start
+06:23:29 28-11-2016: INF: Json was not changed
+
+06:24:03 28-11-2016: Start
+06:24:08 28-11-2016: End: Json was not changed
+
+06:24:26 28-11-2016: Start
+06:24:31 28-11-2016: End: Json was not changed
+06:24:43 28-11-2016: Start
+06:24:48 28-11-2016: End
+06:30:30 28-11-2016: Start
+06:30:35 28-11-2016: End
+06:30:40 28-11-2016: Start
+06:30:40 28-11-2016: End
+06:30:41 28-11-2016: Start
+06:30:41 28-11-2016: End
+06:30:42 28-11-2016: Start
+06:30:42 28-11-2016: End
+06:30:55 28-11-2016: Start
+06:30:55 28-11-2016: ERR: Can't open old dgst
+
+06:30:57 28-11-2016: Start
+06:30:57 28-11-2016: ERR: Can't open old dgst
+
+06:30:58 28-11-2016: Start
+06:30:58 28-11-2016: ERR: Can't open old dgst
+
+06:31:05 28-11-2016: Start
+06:31:05 28-11-2016: ERR: Can't open old dgst
+
+06:31:07 28-11-2016: Start
+06:31:07 28-11-2016: ERR: Can't open old dgst
+
+06:31:19 28-11-2016: Start
+06:31:19 28-11-2016: End
+06:31:22 28-11-2016: Start
+06:31:22 28-11-2016: End
+06:31:23 28-11-2016: Start
+06:31:23 28-11-2016: End
+06:31:24 28-11-2016: Start
+06:31:24 28-11-2016: End
+06:31:25 28-11-2016: Start
+06:31:25 28-11-2016: End
+06:31:31 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 97.
+06:31:31 28-11-2016: End
+06:31:32 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 97.
+06:31:32 28-11-2016: End
+06:31:32 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 97.
+06:31:32 28-11-2016: End
+06:34:17 28-11-2016: Start
+Filehandle OLDDGST opened only for output at ./hmgr.pl line 89.
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 97.
+06:34:17 28-11-2016: End
+06:34:18 28-11-2016: Start
+Filehandle OLDDGST opened only for output at ./hmgr.pl line 89.
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 97.
+06:34:18 28-11-2016: End
+06:39:15 28-11-2016: Start
+06:39:15 28-11-2016: End: Json was not changed
+06:39:17 28-11-2016: Start
+06:39:17 28-11-2016: End: Json was not changed
+06:39:18 28-11-2016: Start
+06:39:18 28-11-2016: End: Json was not changed
+06:39:19 28-11-2016: Start
+06:39:19 28-11-2016: End: Json was not changed
+06:39:24 28-11-2016: Start
+06:39:24 28-11-2016: End: Json was not changed
+06:39:24 28-11-2016: Start
+06:39:24 28-11-2016: End: Json was not changed
+06:39:34 28-11-2016: Start
+06:39:34 28-11-2016: End
+06:39:35 28-11-2016: Start
+06:39:35 28-11-2016: ERR: Can't open old dgst
+
+06:39:36 28-11-2016: Start
+06:39:36 28-11-2016: ERR: Can't open old dgst
+
+06:39:37 28-11-2016: Start
+06:39:37 28-11-2016: ERR: Can't open old dgst
+
+06:39:37 28-11-2016: Start
+06:39:37 28-11-2016: ERR: Can't open old dgst
+
+06:40:36 28-11-2016: Start
+06:40:36 28-11-2016: ERR: Can't open old dgst
+
+06:40:37 28-11-2016: Start
+06:40:37 28-11-2016: ERR: Can't open old dgst
+
+06:40:59 28-11-2016: Start
+06:40:59 28-11-2016: ERR: Can't open old dgst
+
+06:43:57 28-11-2016: Start
+06:43:57 28-11-2016: ERR: Can't open old dgst
+
+06:43:58 28-11-2016: Start
+06:43:58 28-11-2016: ERR: Can't open old dgst
+
+06:43:58 28-11-2016: Start
+06:43:58 28-11-2016: ERR: Can't open old dgst
+
+06:44:00 28-11-2016: Start
+06:44:00 28-11-2016: ERR: Can't open old dgst
+
+06:44:01 28-11-2016: Start
+06:44:01 28-11-2016: ERR: Can't open old dgst
+
+06:44:02 28-11-2016: Start
+06:44:02 28-11-2016: ERR: Can't open old dgst
+
+06:44:03 28-11-2016: Start
+06:44:03 28-11-2016: ERR: Can't open old dgst
+
+06:44:20 28-11-2016: Start
+06:44:20 28-11-2016: INF: Can't open old dgst
+
+readline() on closed filehandle OLDDGST at ./hmgr.pl line 89.
+seek() on closed filehandle OLDDGST at ./hmgr.pl line 96.
+print() on closed filehandle OLDDGST at ./hmgr.pl line 97.
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 100.
+06:44:20 28-11-2016: End
+06:44:38 28-11-2016: Start
+06:44:38 28-11-2016: INF: Can't open old dgst
+
+readline() on closed filehandle OLDDGST at ./hmgr.pl line 89.
+print() on closed filehandle OLDDGST at ./hmgr.pl line 97.
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 100.
+06:44:38 28-11-2016: End
+06:44:40 28-11-2016: Start
+06:44:40 28-11-2016: INF: Can't open old dgst
+
+readline() on closed filehandle OLDDGST at ./hmgr.pl line 89.
+print() on closed filehandle OLDDGST at ./hmgr.pl line 97.
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 100.
+06:44:40 28-11-2016: End
+06:44:40 28-11-2016: Start
+06:44:40 28-11-2016: INF: Can't open old dgst
+
+readline() on closed filehandle OLDDGST at ./hmgr.pl line 89.
+print() on closed filehandle OLDDGST at ./hmgr.pl line 97.
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 100.
+06:44:40 28-11-2016: End
+06:44:41 28-11-2016: Start
+06:44:41 28-11-2016: INF: Can't open old dgst
+
+readline() on closed filehandle OLDDGST at ./hmgr.pl line 89.
+print() on closed filehandle OLDDGST at ./hmgr.pl line 97.
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 100.
+06:44:41 28-11-2016: End
+06:45:26 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 100.
+06:45:26 28-11-2016: End
+06:45:28 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 100.
+06:45:28 28-11-2016: End
+06:45:29 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 100.
+06:45:29 28-11-2016: End
+06:45:30 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 100.
+06:45:30 28-11-2016: End
+06:45:32 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 100.
+06:45:32 28-11-2016: End
+06:45:32 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 100.
+06:45:32 28-11-2016: End
+06:45:41 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 100.
+06:45:41 28-11-2016: End
+06:45:42 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 100.
+06:45:42 28-11-2016: End
+06:45:44 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 100.
+06:45:44 28-11-2016: End
+06:46:31 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:46:31 28-11-2016: End
+06:46:33 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:46:33 28-11-2016: End
+06:46:34 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:46:34 28-11-2016: End
+06:46:36 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:46:36 28-11-2016: End
+06:46:58 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:46:58 28-11-2016: End
+06:47:00 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:47:00 28-11-2016: End
+06:47:01 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:47:01 28-11-2016: End
+06:47:03 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:47:03 28-11-2016: End
+06:47:19 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:47:19 28-11-2016: End
+06:47:20 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:47:20 28-11-2016: End
+06:47:55 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 102.
+06:47:55 28-11-2016: End
+06:47:55 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 102.
+06:47:55 28-11-2016: End
+06:47:56 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 102.
+06:47:56 28-11-2016: End
+06:47:57 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 102.
+06:47:57 28-11-2016: End
+06:47:58 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 102.
+06:47:58 28-11-2016: End
+06:48:00 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 102.
+06:48:00 28-11-2016: End
+06:48:37 28-11-2016: Start
+06:48:37 28-11-2016: End: Json was not changed
+06:48:39 28-11-2016: Start
+06:48:39 28-11-2016: End: Json was not changed
+06:48:43 28-11-2016: Start
+06:48:43 28-11-2016: End: Json was not changed
+06:48:44 28-11-2016: Start
+06:48:44 28-11-2016: End: Json was not changed
+06:48:45 28-11-2016: Start
+06:48:45 28-11-2016: End: Json was not changed
+06:48:55 28-11-2016: Start
+06:48:55 28-11-2016: End
+06:48:57 28-11-2016: Start
+06:48:57 28-11-2016: End
+06:48:58 28-11-2016: Start
+06:48:58 28-11-2016: End
+06:48:58 28-11-2016: Start
+06:48:58 28-11-2016: End
+06:48:59 28-11-2016: Start
+06:48:59 28-11-2016: End
+06:49:00 28-11-2016: Start
+06:49:00 28-11-2016: End
+06:49:00 28-11-2016: Start
+06:49:00 28-11-2016: End
+06:49:46 28-11-2016: Start
+06:49:46 28-11-2016: End
+06:49:47 28-11-2016: Start
+06:49:47 28-11-2016: End
+06:49:48 28-11-2016: Start
+06:49:48 28-11-2016: End
+06:49:49 28-11-2016: Start
+06:49:49 28-11-2016: End
+06:49:50 28-11-2016: Start
+06:49:50 28-11-2016: End
+06:49:51 28-11-2016: Start
+06:49:51 28-11-2016: End
+06:50:10 28-11-2016: Start
+06:50:10 28-11-2016: End
+06:50:25 28-11-2016: Start
+06:50:25 28-11-2016: End
+06:50:26 28-11-2016: Start
+06:50:26 28-11-2016: End: Json was not changed
+06:50:28 28-11-2016: Start
+06:50:28 28-11-2016: End: Json was not changed
+06:50:28 28-11-2016: Start
+06:50:28 28-11-2016: End: Json was not changed
+06:50:37 28-11-2016: Start
+06:50:37 28-11-2016: End
+06:50:38 28-11-2016: Start
+06:50:38 28-11-2016: End: Json was not changed
+06:50:40 28-11-2016: Start
+06:50:40 28-11-2016: End: Json was not changed
+06:50:40 28-11-2016: Start
+06:50:40 28-11-2016: End: Json was not changed
+06:50:41 28-11-2016: Start
+06:50:41 28-11-2016: End: Json was not changed
+06:50:57 28-11-2016: Start
+06:50:57 28-11-2016: End: Json was not changed
+06:50:58 28-11-2016: Start
+06:50:58 28-11-2016: End: Json was not changed
+06:51:08 28-11-2016: Start
+06:51:08 28-11-2016: End
+06:51:10 28-11-2016: Start
+06:51:10 28-11-2016: End: Json was not changed
+06:51:10 28-11-2016: Start
+06:51:10 28-11-2016: End: Json was not changed
+06:51:18 28-11-2016: Start
+06:51:18 28-11-2016: INF: Can't open old dgst
+
+readline() on closed filehandle OLDDGST at ./hmgr.pl line 89.
+seek() on closed filehandle OLDDGST at ./hmgr.pl line 96.
+print() on closed filehandle OLDDGST at ./hmgr.pl line 98.
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:51:18 28-11-2016: End
+06:51:19 28-11-2016: Start
+06:51:19 28-11-2016: INF: Can't open old dgst
+
+readline() on closed filehandle OLDDGST at ./hmgr.pl line 89.
+seek() on closed filehandle OLDDGST at ./hmgr.pl line 96.
+print() on closed filehandle OLDDGST at ./hmgr.pl line 98.
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:51:19 28-11-2016: End
+06:51:34 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:51:34 28-11-2016: End
+06:51:35 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:51:35 28-11-2016: End
+06:51:37 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:51:37 28-11-2016: End
+06:51:45 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:51:45 28-11-2016: End
+06:51:46 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:51:46 28-11-2016: End
+06:51:52 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:51:52 28-11-2016: End
+06:51:53 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:51:53 28-11-2016: End
+06:52:00 28-11-2016: Start
+06:52:00 28-11-2016: End: Json was not changed
+06:52:01 28-11-2016: Start
+06:52:01 28-11-2016: End: Json was not changed
+06:52:01 28-11-2016: Start
+06:52:01 28-11-2016: End: Json was not changed
+06:52:02 28-11-2016: Start
+06:52:02 28-11-2016: End: Json was not changed
+06:52:13 28-11-2016: Start
+06:52:13 28-11-2016: INF: Can't open old dgst
+
+readline() on closed filehandle OLDDGST at ./hmgr.pl line 89.
+seek() on closed filehandle OLDDGST at ./hmgr.pl line 96.
+print() on closed filehandle OLDDGST at ./hmgr.pl line 98.
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:52:13 28-11-2016: End
+06:57:18 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 102.
+06:57:18 28-11-2016: End
+06:57:19 28-11-2016: Start
+06:57:19 28-11-2016: End: Json was not changed
+06:57:20 28-11-2016: Start
+06:57:20 28-11-2016: End: Json was not changed
+06:57:23 28-11-2016: Start
+06:57:23 28-11-2016: End: Json was not changed
+06:57:28 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 102.
+06:57:28 28-11-2016: End
+06:57:29 28-11-2016: Start
+06:57:29 28-11-2016: End: Json was not changed
+06:57:30 28-11-2016: Start
+06:57:30 28-11-2016: End: Json was not changed
+06:57:32 28-11-2016: Start
+06:57:32 28-11-2016: End: Json was not changed
+06:57:52 28-11-2016: Start
+06:57:52 28-11-2016: End: Json was not changed
+06:58:01 28-11-2016: Start
+06:58:01 28-11-2016: End
+06:58:02 28-11-2016: Start
+06:58:02 28-11-2016: End: Json was not changed
+06:58:03 28-11-2016: Start
+06:58:03 28-11-2016: End: Json was not changed
+06:58:03 28-11-2016: Start
+06:58:03 28-11-2016: End: Json was not changed
+06:58:04 28-11-2016: Start
+06:58:04 28-11-2016: End: Json was not changed
+06:58:31 28-11-2016: Start
+06:58:31 28-11-2016: End: Json was not changed
+06:58:32 28-11-2016: Start
+06:58:32 28-11-2016: End: Json was not changed
+06:58:32 28-11-2016: Start
+06:58:32 28-11-2016: End: Json was not changed
+06:58:38 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:58:38 28-11-2016: End
+06:58:40 28-11-2016: Start
+06:58:40 28-11-2016: End: Json was not changed
+06:58:41 28-11-2016: Start
+06:58:41 28-11-2016: End: Json was not changed
+06:58:41 28-11-2016: Start
+06:58:41 28-11-2016: End: Json was not changed
+06:58:42 28-11-2016: Start
+06:58:42 28-11-2016: End: Json was not changed
+06:58:44 28-11-2016: Start
+06:58:44 28-11-2016: End: Json was not changed
+06:58:45 28-11-2016: Start
+06:58:45 28-11-2016: End: Json was not changed
+06:58:46 28-11-2016: Start
+06:58:46 28-11-2016: End: Json was not changed
+06:58:48 28-11-2016: Start
+06:58:48 28-11-2016: End: Json was not changed
+06:58:50 28-11-2016: Start
+06:58:50 28-11-2016: End: Json was not changed
+06:58:50 28-11-2016: Start
+06:58:50 28-11-2016: End: Json was not changed
+06:58:57 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 101.
+06:58:57 28-11-2016: End
+06:58:57 28-11-2016: Start
+06:58:57 28-11-2016: End: Json was not changed
+06:58:58 28-11-2016: Start
+06:58:58 28-11-2016: End: Json was not changed
+06:59:13 28-11-2016: Start
+06:59:13 28-11-2016: End: Json was not changed
+06:59:14 28-11-2016: Start
+06:59:14 28-11-2016: End: Json was not changed
+06:59:21 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 102.
+06:59:21 28-11-2016: End
+06:59:22 28-11-2016: Start
+06:59:22 28-11-2016: End: Json was not changed
+06:59:22 28-11-2016: Start
+06:59:22 28-11-2016: End: Json was not changed
+06:59:31 28-11-2016: Start
+Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl line 102.
+06:59:31 28-11-2016: End
+06:59:31 28-11-2016: Start
+06:59:31 28-11-2016: End: Json was not changed
+06:59:32 28-11-2016: Start
+06:59:32 28-11-2016: End: Json was not changed

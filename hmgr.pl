@@ -4,9 +4,11 @@ use strict;
 use warnings;
 use Switch;
 #use JSON;
+use Fcntl;
 use DBI;
 use POSIX qw(strftime);
 use JSON::Parse ':all';
+use Digest::MD5 'md5_base64';
 #use JSON qw( decode_json );
 #use JSON::Parse 'valid_json';
 use Data::Dumper;
@@ -76,23 +78,49 @@ event("Start");
 
 # Read JOSN conf
 my $jsonr;
-open (FH, "<./test.json") or event("ERR:Can't open json\n");
-while (<FH>) { $jsonr .= $_ } ;
-close FH;
+open (JSON, "<./test.json") or event("ERR: Can't open json\n");
+while (<JSON>) { $jsonr .= $_ } ;
+close JSON;
 event("ERR:Invalid JSON") unless (valid_json ($jsonr));
+
+# Old conf compare
+my $dgst = md5_base64($jsonr);
+my $dgstold;
+sysopen (OLDDGST, "./old.dgst", O_RDWR|O_CREAT) or event("INF: Can't open old dgst\n");
+while (<OLDDGST>) { $dgstold .= $_ }
+if ($dgstold) {
+	if ($dgst eq $dgstold) {
+		event("End: Json was not changed");
+		exit 0;
+	}
+}
+seek(OLDDGST, 0, 0);
+truncate OLDDGST, 0 ;
+print OLDDGST $dgst;
+close OLDDGST;
+
+print $dgst."\n".$dgstold."\n"; #
+
+
 
 # Зarse in hash
 my $jsonp =  parse_json ( $jsonr );
 
-dbctl(DEL,0,"tester");
-dbctl(DROP,"test1","123");
-dbctl(CREATE,"test1","123");
-print dbctl(ADD, 0,"tester");
-dbctl(GRANT,"test1","tester");
-dbctl(REVOKE,"test1","tester");
+# dbctl(DEL,0,"tester");
+# dbctl(DROP,"test1","123");
+# dbctl(CREATE,"test1","123");
+# print dbctl(ADD, 0,"tester");
+# dbctl(GRANT,"test1","tester");
+# dbctl(REVOKE,"test1","tester");
 
 
 #for (my $c = 0 ; $c < 10; $c++) {print pwgen()."\n"} ;
+
+#open (APACHECONF, "<./apache.conf") or event("ERR: Can't open json\n");
+#open (APACHECONF, "<./sql.conf") or event("ERR: Can't open json\n");
+#open (APACHECONF, "<./apache.conf") or event("ERR: Can't open json\n");
+
+
 my @uids;
 for ( my $t = 0; $jsonp->[$t]->{userid}; $t++) {
 	print "num:$t\tid:$jsonp->[$t]->{userid}\tsitename: $jsonp->[$t]->{sitename}\tphpver: $jsonp->[$t]->{phpver}\tactive: $jsonp->[$t]->{active}\t";
