@@ -852,3 +852,473 @@ Use of uninitialized value $dgstold in concatenation (.) or string at ./hmgr.pl 
 06:59:31 28-11-2016: End: Json was not changed
 06:59:32 28-11-2016: Start
 06:59:32 28-11-2016: End: Json was not changed
+09:23:32 02-12-2016: Start
+09:23:32 02-12-2016: End: Json was not changed
+09:23:33 02-12-2016: Start
+09:23:33 02-12-2016: End: Json was not changed
+09:23:47 02-12-2016: Start
+09:23:47 02-12-2016: End
+09:23:49 02-12-2016: Start
+09:23:49 02-12-2016: End: Json was not changed
+09:23:50 02-12-2016: Start
+09:23:50 02-12-2016: End: Json was not changed
+09:23:50 02-12-2016: Start
+09:23:50 02-12-2016: End: Json was not changed
+09:23:51 02-12-2016: Start
+09:23:51 02-12-2016: End: Json was not changed
+09:23:51 02-12-2016: Start
+09:23:51 02-12-2016: End: Json was not changed
+09:50:58 02-12-2016: Start
+09:50:58 02-12-2016: End: Json was not changed
+09:51:41 02-12-2016: Start
+09:51:41 02-12-2016: End: Json was not changed
+09:52:06 02-12-2016: Start
+09:52:06 02-12-2016: End: Json was not changed
+09:52:48 02-12-2016: Start
+09:52:48 02-12-2016: ERR: Can't open apache.conf
+
+09:53:02 02-12-2016: Start
+09:53:02 02-12-2016: End: Json was not changed
+09:53:11 02-12-2016: Start
+09:53:11 02-12-2016: End
+09:59:01 02-12-2016: Start
+09:59:01 02-12-2016: End
+10:00:04 02-12-2016: Start
+10:00:04 02-12-2016: End
+10:46:37 02-12-2016: Start
+10:46:37 02-12-2016: End: Json was not changed
+18:38:32 02-12-2016: Start
+18:38:32 02-12-2016: End: Json was not changed
+18:38:58 02-12-2016: Start
+DBD::mysql::db do failed: MySQL server has gone away at ./hmgr.pl line 62.
+18:38:58 02-12-2016: WNG: Can't drop database test1
+DBD::mysql::db do failed: MySQL server has gone away at ./hmgr.pl line 66.
+18:38:58 02-12-2016: WNG: Can't revoke on test1 for tester
+18:38:58 02-12-2016: End
+18:40:21 02-12-2016: Start
+DBD::mysql::db do failed: Operation DROP USER failed for 'tester'@'localhost' at ./hmgr.pl line 65.
+18:40:21 02-12-2016: WNG: Can't drop user tester
+DBD::mysql::db do failed: There is no such grant defined for user 'tester' on host 'localhost' at ./hmgr.pl line 67.
+18:40:21 02-12-2016: WNG: Can't revoke on test1 for tester
+18:40:21 02-12-2016: End
+11:37:37 03-12-2016: Start
+11:37:37 03-12-2016: End: Json was not changed
+11:37:56 03-12-2016: Start
+DBD::mysql::db do failed: Operation DROP USER failed for 'tester'@'localhost' at ./hmgr.pl line 65.
+11:37:56 03-12-2016: WNG: Can't drop user tester
+DBD::mysql::db do failed: Can't drop database 'test1'; database doesn't exist at ./hmgr.pl line 63.
+11:37:56 03-12-2016: WNG: Can't drop database test1
+DBD::mysql::db do failed: There is no such grant defined for user 'tester' on host 'localhost' at ./hmgr.pl line 67.
+11:37:56 03-12-2016: WNG: Can't revoke on test1 for tester
+11:37:56 03-12-2016: End
+11:39:24 03-12-2016: Start
+11:39:24 03-12-2016: End: Json was not changed
+DBD::mysql::db do failed: Operation DROP USER failed for 'tester'@'localhost' at ./hmgr.pl line 65.
+11:39:24 03-12-2016: WNG: Can't drop user tester
+DBD::mysql::db do failed: Can't drop database 'test1'; database doesn't exist at ./hmgr.pl line 63.
+11:39:24 03-12-2016: WNG: Can't drop database test1
+DBD::mysql::db do failed: There is no such grant defined for user 'tester' on host 'localhost' at ./hmgr.pl line 67.
+11:39:24 03-12-2016: WNG: Can't revoke on test1 for tester
+11:39:24 03-12-2016: End
+11:39:25 03-12-2016: Start
+11:39:25 03-12-2016: End: Json was not changed
+DBD::mysql::db do failed: Operation DROP USER failed for 'tester'@'localhost' at ./hmgr.pl line 65.
+11:39:25 03-12-2016: WNG: Can't drop user tester
+DBD::mysql::db do failed: Can't drop database 'test1'; database doesn't exist at ./hmgr.pl line 63.
+11:39:25 03-12-2016: WNG: Can't drop database test1
+DBD::mysql::db do failed: There is no such grant defined for user 'tester' on host 'localhost' at ./hmgr.pl line 67.
+11:39:25 03-12-2016: WNG: Can't revoke on test1 for tester
+11:39:25 03-12-2016: End
+11:39:40 03-12-2016: Start
+11:39:40 03-12-2016: End: Json was not changed
+DBD::mysql::db do failed: Operation DROP USER failed for 'tester'@'localhost' at ./hmgr.pl line 65.
+11:39:40 03-12-2016: WNG: Can't drop user tester
+DBD::mysql::db do failed: Can't drop database 'test1'; database doesn't exist at ./hmgr.pl line 63.
+11:39:40 03-12-2016: WNG: Can't drop database test1
+DBD::mysql::db do failed: There is no such grant defined for user 'tester' on host 'localhost' at ./hmgr.pl line 67.
+11:39:40 03-12-2016: WNG: Can't revoke on test1 for tester
+11:39:40 03-12-2016: End
+11:39:45 03-12-2016: Start
+11:39:45 03-12-2016: End: Json was not changed
+DBD::mysql::db do failed: Operation DROP USER failed for 'tester'@'localhost' at ./hmgr.pl line 65.
+11:39:45 03-12-2016: WNG: Can't drop user tester
+DBD::mysql::db do failed: Can't drop database 'test1'; database doesn't exist at ./hmgr.pl line 63.
+11:39:45 03-12-2016: WNG: Can't drop database test1
+DBD::mysql::db do failed: There is no such grant defined for user 'tester' on host 'localhost' at ./hmgr.pl line 67.
+11:39:45 03-12-2016: WNG: Can't revoke on test1 for tester
+11:39:45 03-12-2016: End
+11:39:49 03-12-2016: Start
+11:39:49 03-12-2016: End: Json was not changed
+DBD::mysql::db do failed: Operation DROP USER failed for 'tester'@'localhost' at ./hmgr.pl line 65.
+11:39:49 03-12-2016: WNG: Can't drop user tester
+DBD::mysql::db do failed: Can't drop database 'test1'; database doesn't exist at ./hmgr.pl line 63.
+11:39:49 03-12-2016: WNG: Can't drop database test1
+DBD::mysql::db do failed: There is no such grant defined for user 'tester' on host 'localhost' at ./hmgr.pl line 67.
+11:39:49 03-12-2016: WNG: Can't revoke on test1 for tester
+11:39:49 03-12-2016: End
+13:26:56 03-12-2016: Start
+13:26:56 03-12-2016: End: Json was not changed
+DBD::mysql::db do failed: Operation DROP USER failed for 'tester'@'localhost' at ./hmgr.pl line 74.
+13:26:56 03-12-2016: WNG: Can't drop user tester
+DBD::mysql::db do failed: Can't drop database 'test1'; database doesn't exist at ./hmgr.pl line 72.
+13:26:56 03-12-2016: WNG: Can't drop database test1
+DBD::mysql::db do failed: There is no such grant defined for user 'tester' on host 'localhost' at ./hmgr.pl line 76.
+13:26:56 03-12-2016: WNG: Can't revoke on test1 for tester
+13:26:56 03-12-2016: End
+13:26:57 03-12-2016: Start
+13:26:57 03-12-2016: End: Json was not changed
+DBD::mysql::db do failed: Operation DROP USER failed for 'tester'@'localhost' at ./hmgr.pl line 74.
+13:26:57 03-12-2016: WNG: Can't drop user tester
+DBD::mysql::db do failed: Can't drop database 'test1'; database doesn't exist at ./hmgr.pl line 72.
+13:26:57 03-12-2016: WNG: Can't drop database test1
+DBD::mysql::db do failed: There is no such grant defined for user 'tester' on host 'localhost' at ./hmgr.pl line 76.
+13:26:57 03-12-2016: WNG: Can't revoke on test1 for tester
+13:26:57 03-12-2016: End
+13:26:58 03-12-2016: Start
+13:26:58 03-12-2016: End: Json was not changed
+DBD::mysql::db do failed: Operation DROP USER failed for 'tester'@'localhost' at ./hmgr.pl line 74.
+13:26:58 03-12-2016: WNG: Can't drop user tester
+DBD::mysql::db do failed: Can't drop database 'test1'; database doesn't exist at ./hmgr.pl line 72.
+13:26:58 03-12-2016: WNG: Can't drop database test1
+DBD::mysql::db do failed: There is no such grant defined for user 'tester' on host 'localhost' at ./hmgr.pl line 76.
+13:26:58 03-12-2016: WNG: Can't revoke on test1 for tester
+13:26:58 03-12-2016: End
+13:27:00 03-12-2016: Start
+13:27:00 03-12-2016: End: Json was not changed
+DBD::mysql::db do failed: Operation DROP USER failed for 'tester'@'localhost' at ./hmgr.pl line 74.
+13:27:00 03-12-2016: WNG: Can't drop user tester
+DBD::mysql::db do failed: Can't drop database 'test1'; database doesn't exist at ./hmgr.pl line 72.
+13:27:00 03-12-2016: WNG: Can't drop database test1
+DBD::mysql::db do failed: There is no such grant defined for user 'tester' on host 'localhost' at ./hmgr.pl line 76.
+13:27:00 03-12-2016: WNG: Can't revoke on test1 for tester
+13:27:00 03-12-2016: End
+13:27:26 03-12-2016: Start
+13:27:26 03-12-2016: End: Json was not changed
+13:27:26 03-12-2016: End
+13:27:27 03-12-2016: Start
+13:27:27 03-12-2016: End: Json was not changed
+13:27:27 03-12-2016: End
+13:28:49 03-12-2016: Start
+13:28:49 03-12-2016: End: Json was not changed
+13:28:49 03-12-2016: End
+13:28:50 03-12-2016: Start
+13:28:50 03-12-2016: End: Json was not changed
+13:28:50 03-12-2016: End
+13:46:00 03-12-2016: Start
+13:46:00 03-12-2016: End
+13:46:17 03-12-2016: Start
+13:46:17 03-12-2016: End: Json was not changed
+13:46:17 03-12-2016: End
+13:46:18 03-12-2016: Start
+13:46:18 03-12-2016: End: Json was not changed
+13:46:18 03-12-2016: End
+13:46:19 03-12-2016: Start
+13:46:19 03-12-2016: End: Json was not changed
+13:46:19 03-12-2016: End
+13:48:28 03-12-2016: Start
+13:48:28 03-12-2016: End: Json was not changed
+DBD::mysql::db do failed: Operation DROP USER failed for 'tester'@'localhost' at ./hmgr.pl line 81.
+13:48:28 03-12-2016: WNG: Can't drop user tester
+DBD::mysql::db do failed: MySQL server has gone away at ./hmgr.pl line 79.
+13:48:28 03-12-2016: WNG: Can't drop database test1
+DBD::mysql::db do failed: MySQL server has gone away at ./hmgr.pl line 78.
+13:48:28 03-12-2016: WNG: Can't create database test1
+DBD::mysql::db do failed: MySQL server has gone away at ./hmgr.pl line 80.
+13:48:28 03-12-2016: WNG: Can't create user tester
+DBD::mysql::db do failed: MySQL server has gone away at ./hmgr.pl line 82.
+13:48:28 03-12-2016: WNG: Can't grant on test1 for tester
+DBD::mysql::db do failed: MySQL server has gone away at ./hmgr.pl line 83.
+13:48:28 03-12-2016: WNG: Can't revoke on test1 for tester
+13:48:28 03-12-2016: End
+13:49:18 03-12-2016: Start
+13:49:18 03-12-2016: End: Json was not changed
+DBD::mysql::db do failed: Operation DROP USER failed for 'tester'@'localhost' at ./hmgr.pl line 81.
+13:49:18 03-12-2016: WNG: Can't drop user tester
+DBD::mysql::db do failed: Can't drop database 'test1'; database doesn't exist at ./hmgr.pl line 79.
+13:49:18 03-12-2016: WNG: Can't drop database test1
+13:49:18 03-12-2016: End
+13:59:02 03-12-2016: Start
+13:59:02 03-12-2016: End: Json was not changed
+print() on closed filehandle LOG at ./hmgr.pl line 42.
+13:59:16 03-12-2016: Start
+13:59:16 03-12-2016: End: Json was not changed
+print() on closed filehandle LOG at ./hmgr.pl line 42.
+13:59:19 03-12-2016: Start
+13:59:19 03-12-2016: End: Json was not changed
+print() on closed filehandle LOG at ./hmgr.pl line 42.
+13:59:20 03-12-2016: Start
+13:59:20 03-12-2016: End: Json was not changed
+print() on closed filehandle LOG at ./hmgr.pl line 42.
+13:59:53 03-12-2016: Start
+13:59:53 03-12-2016: End: Json was not changed
+print() on closed filehandle LOG at ./hmgr.pl line 42.
+readline() on unopened filehandle FILE_IS_OPEN at ./hmgr.pl line 44.
+readline() on unopened filehandle FILE_IS_OPEN at ./hmgr.pl line 44.
+readline() on unopened filehandle FILE_IS_OPEN at ./hmgr.pl line 44.
+14:15:46 03-12-2016: Start
+14:15:46 03-12-2016: End: Json was not changed
+print() on closed filehandle LOG at ./hmgr.pl line 44.
+14:15:49 03-12-2016: Start
+14:15:49 03-12-2016: End: Json was not changed
+print() on closed filehandle LOG at ./hmgr.pl line 44.
+14:16:05 03-12-2016: Start
+14:16:05 03-12-2016: End: Json was not changed
+14:16:06 03-12-2016: Start
+14:16:06 03-12-2016: End: Json was not changed
+14:16:07 03-12-2016: Start
+14:16:07 03-12-2016: End: Json was not changed
+14:16:37 03-12-2016: Start
+14:16:37 03-12-2016: End: Json was not changed
+14:16:39 03-12-2016: Start
+14:16:39 03-12-2016: End: Json was not changed
+14:16:43 03-12-2016: Start
+14:16:43 03-12-2016: End: Json was not changed
+14:17:58 03-12-2016: Start
+14:17:58 03-12-2016: End: Json was not changed
+14:18:50 03-12-2016: Start
+14:18:50 03-12-2016: End: Json was not changed
+14:18:50 03-12-2016: End
+14:18:52 03-12-2016: Start
+14:18:52 03-12-2016: End: Json was not changed
+14:18:52 03-12-2016: End
+14:18:52 03-12-2016: Start
+14:18:52 03-12-2016: End: Json was not changed
+14:18:52 03-12-2016: End
+14:20:03 03-12-2016: Start
+14:20:03 03-12-2016: End: Json was not changed
+14:20:03 03-12-2016: End
+14:20:04 03-12-2016: Start
+14:20:04 03-12-2016: End: Json was not changed
+14:20:04 03-12-2016: End
+14:23:53 03-12-2016: Start
+14:23:53 03-12-2016: End: Json was not changed
+14:23:53 03-12-2016: End
+14:23:54 03-12-2016: Start
+14:23:54 03-12-2016: End: Json was not changed
+14:23:54 03-12-2016: End
+14:29:53 03-12-2016: Start
+14:29:53 03-12-2016: End: Json was not changed
+14:29:53 03-12-2016: End
+DBD::mysql::db do failed: There is no such grant defined for user 'tester' on host 'localhost' at ./hmgr.pl line 73.
+14:30:03 03-12-2016: Start
+14:30:03 03-12-2016: End: Json was not changed
+14:30:03 03-12-2016: WNG: Can't revoke on test1 for tester
+14:30:03 03-12-2016: End
+DBD::mysql::db do failed: Operation DROP USER failed for 'tester'@'localhost' at ./hmgr.pl line 71.
+DBD::mysql::db do failed: Can't drop database 'test1'; database doesn't exist at ./hmgr.pl line 69.
+DBD::mysql::db do failed: There is no such grant defined for user 'tester' on host 'localhost' at ./hmgr.pl line 73.
+14:30:29 03-12-2016: Start
+14:30:29 03-12-2016: End: Json was not changed
+14:30:29 03-12-2016: WNG: Can't drop user tester
+14:30:29 03-12-2016: WNG: Can't drop database test1
+14:30:29 03-12-2016: WNG: Can't revoke on test1 for tester
+14:30:29 03-12-2016: End
+DBD::mysql::db do failed: Can't drop database 'test1'; database doesn't exist at ./hmgr.pl line 69.
+DBD::mysql::db do failed: There is no such grant defined for user 'tester' on host 'localhost' at ./hmgr.pl line 73.
+14:30:32 03-12-2016: Start
+14:30:32 03-12-2016: End: Json was not changed
+14:30:32 03-12-2016: WNG: Can't drop database test1
+14:30:32 03-12-2016: WNG: Can't revoke on test1 for tester
+14:30:32 03-12-2016: End
+DBD::mysql::db do failed: Can't drop database 'test1'; database doesn't exist at ./hmgr.pl line 69.
+DBD::mysql::db do failed: There is no such grant defined for user 'tester' on host 'localhost' at ./hmgr.pl line 73.
+14:31:06 03-12-2016: Start
+14:31:06 03-12-2016: End: Json was not changed
+14:31:06 03-12-2016: WNG: Can't drop database test1 
+14:31:06 03-12-2016: WNG: Can't revoke on test1 for tester 
+14:31:06 03-12-2016: End
+DBD::mysql::db do failed: Can't drop database 'test1'; database doesn't exist at ./hmgr.pl line 69.
+DBD::mysql::db do failed: There is no such grant defined for user 'tester' on host 'localhost' at ./hmgr.pl line 73.
+14:31:08 03-12-2016: Start
+14:31:08 03-12-2016: End: Json was not changed
+14:31:08 03-12-2016: WNG: Can't drop database test1 
+14:31:08 03-12-2016: WNG: Can't revoke on test1 for tester 
+14:31:08 03-12-2016: End
+DBD::mysql::db do failed: Can't drop database 'test1'; database doesn't exist at ./hmgr.pl line 69.
+DBD::mysql::db do failed: There is no such grant defined for user 'tester' on host 'localhost' at ./hmgr.pl line 73.
+14:31:12 03-12-2016: Start
+14:31:12 03-12-2016: End: Json was not changed
+14:31:12 03-12-2016: WNG: Can't drop database test1 
+14:31:12 03-12-2016: WNG: Can't revoke on test1 for tester 
+14:31:12 03-12-2016: End
+15:05:48 03-12-2016: Start
+15:05:48 03-12-2016: End
+15:05:49 03-12-2016: Start
+15:05:49 03-12-2016: End
+Can't use string ("90") as a HASH ref while "strict refs" in use at ./hmgr.pl line 83.
+15:21:55 03-12-2016: Start
+15:22:31 03-12-2016: Start
+15:22:31 03-12-2016: End
+15:22:32 03-12-2016: Start
+15:22:32 03-12-2016: End
+15:22:55 03-12-2016: Start
+15:22:55 03-12-2016: End
+15:22:57 03-12-2016: Start
+15:22:57 03-12-2016: End
+15:23:10 03-12-2016: Start
+15:23:10 03-12-2016: End
+DBI::db=HASH(0x171d490)->disconnect invalidates 1 active statement handle (either destroy statement handles or call finish on them before disconnecting) at ./hmgr.pl line 177.
+15:24:21 03-12-2016: Start
+15:24:21 03-12-2016: End
+DBI::db=HASH(0x21a45d0)->disconnect invalidates 1 active statement handle (either destroy statement handles or call finish on them before disconnecting) at ./hmgr.pl line 177.
+15:25:42 03-12-2016: Start
+15:25:42 03-12-2016: End
+DBI::db=HASH(0x2525200)->disconnect invalidates 1 active statement handle (either destroy statement handles or call finish on them before disconnecting) at ./hmgr.pl line 177.
+15:25:45 03-12-2016: Start
+15:25:45 03-12-2016: End
+15:26:17 03-12-2016: Start
+15:26:17 03-12-2016: End
+15:26:19 03-12-2016: Start
+15:26:19 03-12-2016: End
+15:27:31 03-12-2016: Start
+15:27:31 03-12-2016: End
+15:27:33 03-12-2016: Start
+15:27:33 03-12-2016: End
+15:27:34 03-12-2016: Start
+15:27:34 03-12-2016: End
+15:27:57 03-12-2016: Start
+15:27:57 03-12-2016: End
+15:28:22 03-12-2016: Start
+15:28:22 03-12-2016: End
+15:28:30 03-12-2016: Start
+15:28:30 03-12-2016: End
+DBI::db=HASH(0x13ea5a0)->disconnect invalidates 1 active statement handle (either destroy statement handles or call finish on them before disconnecting) at ./hmgr.pl line 188.
+15:43:43 03-12-2016: Start
+15:43:43 03-12-2016: End
+DBI::db=HASH(0x26593b0)->disconnect invalidates 1 active statement handle (either destroy statement handles or call finish on them before disconnecting) at ./hmgr.pl line 188.
+15:43:45 03-12-2016: Start
+15:43:45 03-12-2016: End
+DBI::db=HASH(0x2767640)->disconnect invalidates 1 active statement handle (either destroy statement handles or call finish on them before disconnecting) at ./hmgr.pl line 188.
+15:43:47 03-12-2016: Start
+15:43:47 03-12-2016: End
+DBI::db=HASH(0x182d870)->disconnect invalidates 1 active statement handle (either destroy statement handles or call finish on them before disconnecting) at ./hmgr.pl line 188.
+15:43:47 03-12-2016: Start
+15:43:47 03-12-2016: End
+Can't use string ("4544") as a HASH ref while "strict refs" in use at ./hmgr.pl line 89.
+15:44:18 03-12-2016: Start
+Can't use string ("4544") as a HASH ref while "strict refs" in use at ./hmgr.pl line 89.
+15:44:18 03-12-2016: Start
+Can't use string ("4544") as a HASH ref while "strict refs" in use at ./hmgr.pl line 89.
+15:44:19 03-12-2016: Start
+15:46:10 03-12-2016: Start
+15:46:10 03-12-2016: End
+15:46:12 03-12-2016: Start
+15:46:12 03-12-2016: End
+15:46:32 03-12-2016: Start
+15:46:32 03-12-2016: End
+15:46:33 03-12-2016: Start
+15:46:33 03-12-2016: End
+15:48:57 03-12-2016: Start
+15:48:57 03-12-2016: End
+15:49:03 03-12-2016: Start
+15:49:03 03-12-2016: End
+15:49:05 03-12-2016: Start
+15:49:05 03-12-2016: End
+15:53:21 03-12-2016: Start
+15:53:21 03-12-2016: End
+15:53:23 03-12-2016: Start
+15:53:23 03-12-2016: End
+15:53:38 03-12-2016: Start
+15:53:38 03-12-2016: End
+15:53:39 03-12-2016: Start
+15:53:39 03-12-2016: End
+15:53:48 03-12-2016: Start
+15:53:48 03-12-2016: End
+15:53:50 03-12-2016: Start
+15:53:50 03-12-2016: End
+15:53:50 03-12-2016: Start
+15:53:50 03-12-2016: End
+15:53:59 03-12-2016: Start
+15:53:59 03-12-2016: End
+Not a HASH reference at ./hmgr.pl line 91.
+15:54:17 03-12-2016: Start
+Not a HASH reference at ./hmgr.pl line 91.
+15:54:18 03-12-2016: Start
+Not a HASH reference at ./hmgr.pl line 92.
+15:55:51 03-12-2016: Start
+Not a HASH reference at ./hmgr.pl line 92.
+15:55:52 03-12-2016: Start
+Not a HASH reference at ./hmgr.pl line 92.
+15:55:53 03-12-2016: Start
+Not a HASH reference at ./hmgr.pl line 92.
+15:56:01 03-12-2016: Start
+Not a HASH reference at ./hmgr.pl line 92.
+15:56:24 03-12-2016: Start
+Not a HASH reference at ./hmgr.pl line 92.
+15:56:25 03-12-2016: Start
+Not a HASH reference at ./hmgr.pl line 92.
+15:56:25 03-12-2016: Start
+Not a HASH reference at ./hmgr.pl line 92.
+15:57:37 03-12-2016: Start
+Not a HASH reference at ./hmgr.pl line 92.
+15:57:38 03-12-2016: Start
+15:57:56 03-12-2016: Start
+15:57:56 03-12-2016: End
+15:58:01 03-12-2016: Start
+15:58:01 03-12-2016: End
+15:58:02 03-12-2016: Start
+15:58:02 03-12-2016: End
+16:05:36 03-12-2016: Start
+16:05:36 03-12-2016: End
+16:06:36 03-12-2016: Start
+16:06:36 03-12-2016: End
+Can't use string ("90") as an ARRAY ref while "strict refs" in use at ./hmgr.pl line 88.
+16:17:35 03-12-2016: Start
+Can't use string ("90") as an ARRAY ref while "strict refs" in use at ./hmgr.pl line 88.
+16:17:47 03-12-2016: Start
+Can't use string ("90") as an ARRAY ref while "strict refs" in use at ./hmgr.pl line 88.
+16:17:49 03-12-2016: Start
+Can't use string ("90") as an ARRAY ref while "strict refs" in use at ./hmgr.pl line 88.
+16:18:06 03-12-2016: Start
+Can't use string ("90") as an ARRAY ref while "strict refs" in use at ./hmgr.pl line 88.
+16:18:07 03-12-2016: Start
+Can't use string ("90") as an ARRAY ref while "strict refs" in use at ./hmgr.pl line 88.
+16:18:15 03-12-2016: Start
+Can't use string ("90") as an ARRAY ref while "strict refs" in use at ./hmgr.pl line 88.
+16:18:51 03-12-2016: Start
+Can't use string ("90") as an ARRAY ref while "strict refs" in use at ./hmgr.pl line 88.
+16:18:52 03-12-2016: Start
+Can't use string ("90") as an ARRAY ref while "strict refs" in use at ./hmgr.pl line 88.
+16:19:06 03-12-2016: Start
+Can't use string ("90") as an ARRAY ref while "strict refs" in use at ./hmgr.pl line 88.
+16:19:07 03-12-2016: Start
+Can't use string ("90") as an ARRAY ref while "strict refs" in use at ./hmgr.pl line 88.
+16:19:08 03-12-2016: Start
+16:19:35 03-12-2016: Start
+16:19:35 03-12-2016: End
+16:19:46 03-12-2016: Start
+16:19:46 03-12-2016: End
+16:19:55 03-12-2016: Start
+16:19:55 03-12-2016: End
+16:20:15 03-12-2016: Start
+16:20:15 03-12-2016: End
+16:20:16 03-12-2016: Start
+16:20:16 03-12-2016: End
+16:29:02 03-12-2016: Start
+16:29:02 03-12-2016: End
+16:29:03 03-12-2016: Start
+16:29:03 03-12-2016: End
+16:29:04 03-12-2016: Start
+16:29:04 03-12-2016: End
+16:29:07 03-12-2016: Start
+16:29:07 03-12-2016: End
+16:33:03 03-12-2016: Start
+16:33:03 03-12-2016: End
+16:34:00 03-12-2016: Start
+16:34:00 03-12-2016: End
+16:34:25 03-12-2016: Start
+16:34:25 03-12-2016: End
+16:34:27 03-12-2016: Start
+16:34:27 03-12-2016: End
+print() on closed filehandle TFH at ./hmgr.pl line 95.
+16:34:52 03-12-2016: Start
+16:34:52 03-12-2016: End
+print() on closed filehandle TFH at ./hmgr.pl line 95.
+16:34:56 03-12-2016: Start
+16:34:56 03-12-2016: End
+16:36:19 03-12-2016: Start
+16:36:19 03-12-2016: 1
+Нет такого файла или каталога at ./hmgr.pl line 95.
+16:36:30 03-12-2016: Start
+16:36:30 03-12-2016: 1
+Нет такого файла или каталога at ./hmgr.pl line 95.

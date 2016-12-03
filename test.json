@@ -1,12 +1,8 @@
 [
   {
-    "active": 1,
+    "active": true,
     "userid": "0001",
     "sitename": "example.org",
-    "mirrors": [
-      "examples.org",
-      "examp.org"
-    ],
     "phpver": 5.4,
     "db": [
       {
@@ -25,13 +21,9 @@
     ]
   },
   {
-    "active": 1,
+    "active": true,
     "userid": "0002",
     "sitename": "example.net",
-    "mirrors": [
-      "examples.net",
-      "examp.net"
-    ],
     "phpver": 5.5,
     "db": [
       {
@@ -44,12 +36,9 @@
     ]
   },
   {
-    "active": 1,
+    "active": true,
     "userid": "0003",
     "sitename": "example.com",
-    "mirrors": [
-      "examples.com"
-    ],
     "phpver": 5.6,
     "db": [
       {
@@ -61,16 +50,15 @@
     ]
   },
   {
-    "active": 0,
+    "active": true,
     "userid": "0004",
     "sitename": "example.ru",
-    "mirrors": [ ],
-    "phpver": 5.3,
+    "phpver": 5.6,
     "db": [
       {
-        "dbname": "d0004",
+        "dbname": "d0003",
         "dbuser": [
-          "d0004"
+          "d0003"
         ]
       }
     ]
